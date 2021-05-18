@@ -1,4 +1,8 @@
-#Installed  react icons
+# ShoppingCart
+Attempting to create a shopping cart with React
+
+
+Installed  react icons
 
 Additional packages
 1) Bootstrap - npm install bootstrap --save
@@ -8,3 +12,4 @@ Additional packages
 5) Material UI - npm install @material-ui/core
 Chart js- npm install --save react-chartjs-2 chart.js
 6) Styled-components: npm install styled-components --save-dev
+
