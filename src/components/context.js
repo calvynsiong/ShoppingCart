@@ -17,7 +17,7 @@ const AppProvider = ({ children }) => {
 
     const defaultState = {
         loading: false,
-        cart: JSON.parse(localStorage.getItem("cartItemsList")),
+        cart: (localStorage.getItem("cartItemsList") === null) ? cartItems : JSON.parse(localStorage.getItem("cartItemsList")),
         total: 0,
         amount: 0,
     }
